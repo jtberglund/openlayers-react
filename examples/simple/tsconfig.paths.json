@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "allowJs": true,
+        "paths": {
+            "ol": ["node_modules/ol/src"],
+            "ol/*": ["node_modules/ol/src/*"],
+            "openlayers-react": ["node_modules/openlayers-react/src"]
+        }
+    },
+    "include": ["src", "node_modules/ol/**/*.js", "node_modules/openlayers-react/src"]
+}
