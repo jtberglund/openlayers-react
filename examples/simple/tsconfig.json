@@ -1,23 +1,21 @@
 {
-  "compilerOptions": {
-    "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "allowJs": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "jsx": "preserve",
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true
-  },
-  "extends": "./tsconfig.paths.json"
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "umd",
+        "allowJs": true,
+        "jsx": "react",
+        "outDir": "dist",
+        "strict": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "inlineSourceMap": true,
+        "baseUrl": "./",
+        "paths": {
+            "ol": ["node_modules/ol/src"],
+            "ol/*": ["node_modules/ol/src/*"],
+            "openlayers-react": ["../../node_modules/openlayers-react/src"]
+        }
+    },
+    "include": ["src", "node_modules/ol/**/*.js"]
 }
