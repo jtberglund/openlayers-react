@@ -4,7 +4,8 @@
     "private": true,
     "scripts": {
         "start": "gulp",
-        "build": "babel src --out-dir lib --extensions \".ts,.tsx\" --source-maps inline"
+        "serve": "gulp serve",
+        "build": "gulp build"
     },
     "dependencies": {
         "@babel/cli": "^7.4.4",
