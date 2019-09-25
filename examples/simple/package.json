@@ -23,7 +23,7 @@
         "jest": "24.7.1",
         "live-server": "^1.2.1",
         "ol": "^6.0.0-beta.8",
-        "openlayers-react": "file:/Users/jeremy/dev/openlayers-react",
+        "openlayers-react": "file:../../",
         "react": "^16.8.6",
         "react-dom": "^16.8.6",
         "react-scripts": "3.0.1",
