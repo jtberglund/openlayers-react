@@ -1,0 +1,7 @@
+@import '../Icon.scss';
+
+.layer-icon {
+    @extend .ol-icon;
+    stroke-width: 0;
+    fill: currentColor;
+}

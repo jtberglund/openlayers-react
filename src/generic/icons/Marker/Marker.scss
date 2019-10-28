@@ -1,0 +1,8 @@
+@import '../Icon.scss';
+
+.marker-icon {
+    @extend .ol-icon;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}

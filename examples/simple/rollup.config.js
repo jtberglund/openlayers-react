@@ -6,10 +6,10 @@ export default {
     output: {
         file: 'bundle.js',
         format: 'cjs'
-    }
-    // plugins: [
-    //     babel({
-    //         exclude: 'node_modules/**'
-    //     })
-    // ]
+    },
+    plugins: [
+        babel({
+            exclude: 'node_modules/**'
+        })
+    ]
 };

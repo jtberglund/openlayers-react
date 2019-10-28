@@ -1,0 +1,24 @@
+@import '../../generic/Button/Button.scss';
+
+.ol-layer-switcher {
+    @extend .ol-generic-button;
+    position: absolute;
+    min-height: $button-size;
+}
+
+.ol-layer-switcher--upper-left {
+    left: 0.5em;
+    top: 0.5em;
+}
+
+.ol-layer-switcher.ol-layer-switcher--open {
+    // width: 200px;
+    padding: 4px 12px;
+    width: auto;
+    height: auto;
+    text-align: left;
+}
+
+.ol-layer-switcher__toggle-container {
+    max-width: 240px;
+}

@@ -1,0 +1,36 @@
+.ol-popup {
+    padding: 16px;
+    border-radius: 4px;
+    bottom: 6px;
+    left: -12px;
+    position: absolute;
+
+    > * {
+        user-select: auto !important;
+    }
+
+    &:after {
+        width: 8px;
+        height: 8px;
+        content: '';
+        position: absolute;
+        background-color: inherit;
+        bottom: -4px;
+        left: 8px;
+        transform: rotate(45deg);
+    }
+}
+
+.ol-popup__closer {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 12px;
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,14 @@
+$button-size: 24px;
+
+.ol-generic-button {
+    padding: 2px;
+    width: $button-size;
+    height: $button-size;
+    border-radius: 2px;
+    border-width: 1px;
+    border-style: solid;
+
+    > svg {
+        pointer-events: none;
+    }
+}

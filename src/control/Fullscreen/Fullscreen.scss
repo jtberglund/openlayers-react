@@ -1,0 +1,11 @@
+@import '../../generic/Button/Button.scss';
+
+.ol-fullscreen {
+    @extend .ol-generic-button;
+    position: absolute;
+}
+
+.ol-fullscreen--upper-right {
+    top: 0.5em;
+    right: 0.5em;
+}
